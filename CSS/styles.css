@@ -50,11 +50,13 @@ body {
     color: var(--dark-color);
     font-weight: 500;
     list-style: none;
+    text-decoration: none;
 }
 
 .address-text {
     color: var(--body-text-color);
     font-style: normal;
+    text-decoration: none;
 }
 
 .navigation:hover,
@@ -105,6 +107,7 @@ body {
     font-size: 36px;
     line-height: 40px;
     color: var(--dark-color);
+    text-align: center;
 }
 
 .header-text-two {
@@ -115,19 +118,38 @@ body {
 }
 
 .list-text {
-    color: var(--body-text-color);
+    font-weight: 500;
+    font-size: 20px;
     letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+
+
+.text {
+    letter-spacing: 0.02em;
+    color: var(--body-text-color);
 }
 
 /* Section 4 */
 .our-team {
     background-color: var(--light-mode-color);
+}
+
+.team-text {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
     text-align: center;
 }
 
+.our-team-text {
+    text-align: center;
+}
+
+
 .team-card {
     background-color: var(--white-background-color);
-
 }
 
 
