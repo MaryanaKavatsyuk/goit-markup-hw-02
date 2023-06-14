@@ -15,6 +15,7 @@ body {
     letter-spacing: 0.02em;
     background-color: var(--white-background-color);
     color: var(--body-text-color);
+    font-style: normal;
 }
 
 /* Header */
@@ -31,7 +32,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-brand-color);
-    text-decoration: none;
+    font-style: normal;
 }
 
 .logo-span {
@@ -64,8 +65,8 @@ body {
     color: var(--pressed-state-color);
 }
 
-.add-text:hover,
-.add-text:focus {
+.address-text:hover,
+.address-text:focus {
     color: var(--pressed-state-color);
 }
 
@@ -117,7 +118,7 @@ body {
     font-size: 20px;
     letter-spacing: 0.02em;
     color: var(--dark-color);
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
 .list-text {
@@ -140,10 +141,11 @@ body {
 
 .team-text {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 0.02em;
     color: var(--dark-color);
     text-align: center;
+    line-height: 1.2;
 }
 
 .our-team-text {
@@ -166,7 +168,7 @@ body {
 }
 
 .footer-text {
-    color: var(--white-background-color);
+    color: var(--light-mode-color);
 }
 
 /* PORTFOLIO (page 2)*/
@@ -187,4 +189,19 @@ body {
     border: 1px solid var(--accent-color);
     color: var(--primary-brand-color);
     cursor: pointer;
+}
+
+.portfolio-text {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+    line-height: 1.2;
+}
+
+.portfolio-paragraf {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-text-color);
 }
