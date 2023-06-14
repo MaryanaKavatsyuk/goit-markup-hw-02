@@ -14,6 +14,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     background-color: var(--white-background-color);
+    color: var(--body-text-color);
 }
 
 /* Header */
@@ -47,16 +48,20 @@ body {
 
 .navigation {
     color: var(--dark-color);
+    font-weight: 500;
+    list-style: none;
 }
 
-.add-text {
+.address-text {
     color: var(--body-text-color);
     font-style: normal;
-    text-decoration: none;
 }
 
 .navigation:hover,
-.navigation:focus,
+.navigation:focus {
+    color: var(--pressed-state-color);
+}
+
 .add-text:hover,
 .add-text:focus {
     color: var(--pressed-state-color);
@@ -75,6 +80,7 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--white-background-color);
+    text-align: center;
 }
 
 .order-button {
@@ -82,7 +88,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
     color: var(--white-background-color);
     background-color: var(--primary-brand-color);
     cursor: pointer;
@@ -104,21 +110,19 @@ body {
 .header-text-two {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--body-text-color);
+    color: var(--dark-color);
 }
 
 .list-text {
     color: var(--body-text-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    letter-spacing: 0.02em;
 }
 
 /* Section 4 */
 .our-team {
     background-color: var(--light-mode-color);
+    text-align: center;
 }
 
 .team-card {
@@ -141,16 +145,6 @@ body {
 }
 
 /* PORTFOLIO (page 2)*/
-
-.active-button {
-    font-family: "Roboto";
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.04em;
-    background-color: var(--pressed-state-color);
-    color: var(--white-background-color);
-}
 
 .active-button:hover,
 .active-button:focus {
