@@ -54,6 +54,10 @@ body {
     text-decoration: none;
 }
 
+.address-link {
+    font-style: normal;
+}
+
 .address-text {
     color: var(--body-text-color);
     font-style: normal;
