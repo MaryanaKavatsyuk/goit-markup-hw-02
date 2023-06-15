@@ -70,6 +70,12 @@ body {
     color: var(--pressed-state-color);
 }
 
+.button-design:hover,
+.button-design:focus {
+    color: var(--white-background-color);
+    background-color: var(--pressed-state-color);
+}
+
 /* Main content */
 
 /* Section 1 */
